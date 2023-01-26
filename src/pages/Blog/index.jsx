@@ -9,12 +9,14 @@ import {Button} from "semantic-ui-react"
 const Blog = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState(null);
+
   useEffect(() => {
     let blog = blogList.find((blog) => blog.id === parseInt(id));
     if (blog) {
       setBlog(blog);
     }
   }, []);
+
   return (
     <>
       <Link className='blog-goBack' to='/'>

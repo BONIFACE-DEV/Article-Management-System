@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import "./styles.css";
 import {Link} from 'react-router-dom';
-
 function Register (){
     const [title, setTitle] = useState("");
     const [category, setCategory] = useState("");
@@ -32,13 +31,11 @@ function Register (){
           console.error(err);
         }
     };
-
     // useEffect(() => {
     //     if (isLoggedIn) {
     //       props.history.push("/addArticle");
     //     }
     //   }, [isLoggedIn, props.history]);
-
     return (
         <div className="addImage">
             <span className="addTitle">Add Article</span>
@@ -65,5 +62,4 @@ function Register (){
         </div>
     )
 }
-
 export default Register;

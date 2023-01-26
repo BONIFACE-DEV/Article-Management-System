@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-function EditArticle(){
     const [data, setData] = useState({
         title: '',
         category:'',
@@ -11,6 +10,7 @@ function EditArticle(){
         createdAt: '',
         cover: '',
       });
+
       const handlePatch = async () => {
         try {
           const res = await fetch('http://localhost:3000/blogList', {
@@ -26,9 +26,16 @@ function EditArticle(){
           console.error(error);
         }
       };
+    return(
+        <div className="addImage">
+            <span className="addTitle">Edit Article</span>
+
+
       useEffect(() => {
         handlePatch();
       }, [data]);
+
+
     return(
         <div className="addImage">
             <span className="addTitle">Edit Article</span>
@@ -89,6 +96,7 @@ function EditArticle(){
                 onChange={(e) => setData({ ...data, cover: e.target.value })}
             />
             <button onSubmit={handlePatch}>Edit</button>
+
         </div>
     )
 }
