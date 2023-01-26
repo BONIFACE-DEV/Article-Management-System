@@ -1,4 +1,5 @@
 # Article Management System
+<<<<<<< HEAD
 ## This project is a web application that allows users to manage articles. The application is built using ReactJS and implements CRUD operations.
 ## Features
 - User authentication and authorization
@@ -37,7 +38,7 @@ Acknowledgments
 - Thanks to the ReactJS community for providing a great framework to build this application.
 - Thanks to the API provider for providing the data used in this project.
 - Thanks to my TM and all my group members
-
+=======
 This project is a web application that allows users to manage articles. The application is built using ReactJS and implements CRUD operations.
 
 
@@ -94,4 +95,4 @@ This project is licensed under the MIT license.
 Thanks to the ReactJS community for providing a great framework to build this application.
 Thanks to the API provider for providing the data used in this project.
 Thanks to my TM and all my group members
-
+>>>>>>> 2fc17a98c5ca70def159e360a78fa6c3afad05ec
