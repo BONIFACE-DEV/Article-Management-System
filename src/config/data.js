@@ -84,5 +84,4 @@ export const blogList = [
       createdAt: 'June 03, 2021',
       cover: '/assets/images/Synthwave-Postmodern.jpg',
     },
-  ];
 

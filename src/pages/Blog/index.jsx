@@ -6,7 +6,6 @@ import EmptyList from '../../components/common/EmptyList';
 import './styles.css';
 import { Link } from 'react-router-dom';
 import {Button} from "semantic-ui-react"
-
 const Blog = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState(null);
@@ -46,5 +45,4 @@ const Blog = () => {
     </>
   );
 };
-
 export default Blog;

@@ -7,7 +7,6 @@ import Blog from './pages/Blog/index';
 import AddArticle from "./pages/AddArticle/AddArticle"
 import EditArticle from "./pages/EditArticle/EditArticle"
 import './App.css';
-
 const App = () => {
   return (
     <div className='container'>
@@ -22,5 +21,5 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
+

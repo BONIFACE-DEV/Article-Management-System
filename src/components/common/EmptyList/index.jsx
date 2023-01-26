@@ -7,5 +7,4 @@ const EmptyList = () => (
   </div>
 );
 
-
 export default EmptyList;
