@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+Article Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application that allows users to manage articles. The application is built using ReactJS and implements CRUD operations.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. User authentication and authorization
+2. List view of articles
+3. Create, edit, and delete articles
+4. View a single article
+5. Article categorization
+6. Error handling
+7. Styled using CSS
+8. Data retrieved from a public API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies
 
-### `npm run build`
+ReactJS
+JavaScript
+JSON
+CSS
+Axios (or similar library for making API calls)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Getting Started
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+4. The application should now be running on http://localhost:3000/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Data is retrieved from a public API.
+The API endpoint can be configured in the src/config.js file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Security
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+User authentication and authorization is implemented to protect sensitive data.
+Data encryption is used to protect sensitive data such as user passwords.
+The system will be designed later to prevent common security threats such as SQL injection, Cross-site scripting (XSS), and Cross-site request forgery (CSRF)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To deploy the application, build the project using npm run build and then deploy the build folder to a hosting service such as AWS, Firebase, or Heroku
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you would like to contribute to this project, please open a pull request and explain your proposed changes.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT license.
+
+
+
+Acknowledgments
+
+Thanks to the ReactJS community for providing a great framework to build this application.
+Thanks to the API provider for providing the data used in this project.
+Thanks to my TM and all my group members
