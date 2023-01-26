@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css'
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -11,3 +10,4 @@ ReactDOM.render(
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
+);

@@ -1,3 +1,5 @@
+
+
 export const blogList = [
     {
       id: 1,
@@ -84,4 +86,4 @@ export const blogList = [
       createdAt: 'June 03, 2021',
       cover: '/assets/images/Synthwave-Postmodern.jpg',
     },
-
+  ];
