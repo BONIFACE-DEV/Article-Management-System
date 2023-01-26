@@ -3,12 +3,7 @@ import axios from "axios";
 import "./register.css";
 import {Link} from 'react-router-dom';
 
-
-
-
 function Register (props){
-
-
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
@@ -27,7 +22,6 @@ function Register (props){
           console.error(err);
         }
     };
-
     useEffect(() => {
         if (isRegistered) {
           props.history.push("/home");

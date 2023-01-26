@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import AddArticle from './AddArticle';
 import "./styles.css"
 import { Button } from 'semantic-ui-react';
-
 function Logout() {
   return (
     <div>
@@ -11,5 +10,4 @@ function Logout() {
     </div>
   )
 }
-
 export default Logout

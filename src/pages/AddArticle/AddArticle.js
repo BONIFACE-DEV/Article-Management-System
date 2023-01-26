@@ -3,11 +3,7 @@ import axios from "axios";
 import "./styles.css";
 import {Link} from 'react-router-dom';
 
-
-
-
 function Register (){
-
     const [title, setTitle] = useState("");
     const [category, setCategory] = useState("");
     const [subCategory, setSubCategory] = useState("");
@@ -18,8 +14,6 @@ function Register (){
     const [cover, setCover] = useState("");
     const [message, setMessage] = useState(null);
     // const [isLoggedIn, setIsLoggedIn] = useState(false);
-   
-
     const handleSubmit = async e => {
         e.preventDefault();
         try {
@@ -44,8 +38,6 @@ function Register (){
     //       props.history.push("/addArticle");
     //     }
     //   }, [isLoggedIn, props.history]);
-    
-    
 
     return (
         <div className="addImage">
@@ -69,7 +61,6 @@ function Register (){
                 <label>Cover</label>
                     <input className="input" type="file" accept="image/png, image/jpeg" name= "cover" placeholder="Enter the cover..." value={cover} onChange={e => setCover(e.target.value)} />
                 <button className="addButton" type="submit">Register</button>
-                
             </form>
         </div>
     )

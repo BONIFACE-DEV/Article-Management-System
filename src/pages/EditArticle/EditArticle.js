@@ -1,8 +1,5 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-
-function EditArticle(){
-
     const [data, setData] = useState({
         title: '',
         category:'',
@@ -29,6 +26,10 @@ function EditArticle(){
           console.error(error);
         }
       };
+    return(
+        <div className="addImage">
+            <span className="addTitle">Edit Article</span>
+
 
       useEffect(() => {
         handlePatch();
@@ -38,8 +39,6 @@ function EditArticle(){
     return(
         <div className="addImage">
             <span className="addTitle">Edit Article</span>
-            
-
             <input
                 type="text"
                 className="input"
@@ -97,7 +96,7 @@ function EditArticle(){
                 onChange={(e) => setData({ ...data, cover: e.target.value })}
             />
             <button onSubmit={handlePatch}>Edit</button>
-            
+
         </div>
     )
 }
