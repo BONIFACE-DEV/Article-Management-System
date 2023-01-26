@@ -3,7 +3,7 @@
 This project is a web application that allows users to manage articles. The application is built using ReactJS and implements CRUD operations.
 
 
- # Features
+  # Features
   .User authentication and authorization
   .List view of articles
   .Create, edit, and delete articles
