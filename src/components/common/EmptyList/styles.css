@@ -1,4 +1,5 @@
-emptyList-wrap {
+
+.emptyList-wrap {
     display: flex;
     justify-content: center;
   }

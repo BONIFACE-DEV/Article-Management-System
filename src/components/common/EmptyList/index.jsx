@@ -5,4 +5,4 @@ const EmptyList = () => (
     <img src='/assets/images/13525-empty.gif' alt='empty' />
   </div>
 );
-export default EmptyList
+export default EmptyList;
