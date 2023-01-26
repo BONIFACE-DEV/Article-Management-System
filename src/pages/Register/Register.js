@@ -8,13 +8,12 @@ import {Link} from 'react-router-dom';
 
 function Register (props){
 
+
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState(null);
     const [isRegistered, setIsRegistered] = useState(false);
-   
-
     const handleSubmit = async e => {
         e.preventDefault();
         try {
@@ -34,8 +33,6 @@ function Register (props){
           props.history.push("/home");
         }
       }, [isRegistered, props.history]);
-    
-    
 
     return (
         <div className="register">
@@ -49,7 +46,7 @@ function Register (props){
                 <label>Password</label>
                     <input className="registerInput" type="password" name= "password" placeholder="Enter your password..." value={password} onChange={e => setPassword(e.target.value)} />
                 <button className="registerButton" type="submit">Register</button>
-                
+
             </form>
             <Link to="/Login" className="btn btn-primary">Login</Link>
         </div>

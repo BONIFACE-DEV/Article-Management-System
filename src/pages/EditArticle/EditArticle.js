@@ -39,6 +39,7 @@ function EditArticle(){
         <div className="addImage">
             <span className="addTitle">Edit Article</span>
             
+
             <input
                 type="text"
                 className="input"
@@ -100,5 +101,4 @@ function EditArticle(){
         </div>
     )
 }
-
 export default EditArticle;

@@ -85,4 +85,3 @@ export const blogList = [
       cover: '/assets/images/Synthwave-Postmodern.jpg',
     },
   ];
-

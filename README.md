@@ -1,20 +1,19 @@
-Article Management System
-
-This project is a web application that allows users to manage articles. The application is built using ReactJS and implements CRUD operations.
 
 
+
+#Article Management System
+##This project is a web application that allows users to manage articles. The application is built using ReactJS and implements CRUD operations.
 
 Features
 
-1. User authentication and authorization
-2. List view of articles
-3. Create, edit, and delete articles
-4. View a single article
-5. Article categorization
-6. Error handling
-7. Styled using CSS
-8. Data retrieved from a public API
-
+1.User authentication and authorization
+2.List view of articles
+3.Create, edit, and delete articles
+4.View a single article
+5.Article categorization
+6.Error handling
+7.Styled using CSS
+8.Data retrieved from a public API
 
 
 Technologies
@@ -73,3 +72,4 @@ Acknowledgments
 Thanks to the ReactJS community for providing a great framework to build this application.
 Thanks to the API provider for providing the data used in this project.
 Thanks to my TM and all my group members
+

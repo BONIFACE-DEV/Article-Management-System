@@ -20,3 +20,4 @@ const SearchBar = ({ formSubmit, value, handleSearchKey, clearSearch }) => (
 );
 
 export default SearchBar;
+
