@@ -25,10 +25,8 @@ import { useState, useEffect } from 'react';
         } catch (error) {
           console.error(error);
         }
-      };
-    return(
-        <div className="addImage">
-            <span className="addTitle">Edit Article</span>
+      
+   
 
 
       useEffect(() => {
