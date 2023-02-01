@@ -1,5 +1,8 @@
 import React from "react";
 import { useState, useEffect } from 'react';
+
+const EditArticle = () => {
+
     const [data, setData] = useState({
         title: '',
         category:'',
@@ -26,7 +29,7 @@ import { useState, useEffect } from 'react';
           console.error(error);
         }
       
-   
+      }
 
 
       useEffect(() => {
@@ -74,6 +77,7 @@ import { useState, useEffect } from 'react';
             />
             <input
                 type="image"
+                alt=""
                 placeholder="Author's Avatar"
                 className="input"
                 value={data.authorAvatar}
@@ -98,4 +102,5 @@ import { useState, useEffect } from 'react';
         </div>
     )
 }
+
 export default EditArticle;

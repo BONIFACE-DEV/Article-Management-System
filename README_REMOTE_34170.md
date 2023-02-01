@@ -25,7 +25,7 @@ Axios (or similar library for making API calls)
 Clone the repository
 Install dependencies
 Start the development server
-The application should now be running on http://localhost:3000/
+The application should now be running on (http://localhost:3000/)
 
 
 # API
